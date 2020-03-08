@@ -5,7 +5,7 @@
     "display": "standalone",
     "short_name": "LWC",
     "Scope": "/lwc-oss-pwa-example/",
-    "start_url": "/",
+    "start_url": "./index.html",
     "icons": [
         {
             "src": "resources/icons/icon-16x16.png",
