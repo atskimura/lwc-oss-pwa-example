@@ -41,7 +41,7 @@
     },
     "repository": "atskimura/lwc-oss-pwa-example",
     "scripts": {
-        "dist": "npm run build && cp -R dist docs",
+        "dist": "npm run build && rm -rf docs && cp -R dist docs",
         "build": "lwc-services build -m production -w scripts/webpack.config.js",
         "build:development": "lwc-services build -w scripts/webpack.config.js",
         "lint": "eslint ./src/**/*.js",

@@ -3,5 +3,8 @@
 const { GenerateSW } = require('workbox-webpack-plugin');
 
 module.exports = {
+    output: {
+        publicPath: './',
+    },
     plugins: [new GenerateSW({ swDest: 'sw.js' })]
 };
