@@ -1,10 +1,10 @@
 {
-    "name": "My LWC App",
+    "name": "lwc-oss-pwa-example",
     "theme_color": "#2196f3",
     "background_color": "#2196f3",
     "display": "standalone",
     "short_name": "LWC",
-    "Scope": "/",
+    "Scope": "/lwc-oss-pwa-example/",
     "start_url": "/",
     "icons": [
         {
